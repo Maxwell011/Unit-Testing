@@ -6,4 +6,6 @@ const stringLength = (string) => {
   }
 };
 
-module.exports = stringLength;
+const capitalize = (string) => string.charAt(0).toUpperCase() + string.slice(1);
+
+module.exports = { stringLength, capitalize };
